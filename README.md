@@ -7,7 +7,7 @@
 Каждый из этих макросов уже проверяет выражение, либо лва аргумента на равенство.
 
 ## Примеры:
-<code>
+```cpp
 int myAdd(int x, int y){
 	return x + y;
 }
@@ -19,5 +19,4 @@ void TestMyAdd(){
 }
 
 RUN_TEST(TestMyAdd)
-
-</code>
+```
